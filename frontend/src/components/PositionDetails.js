@@ -106,11 +106,11 @@ const PositionsDetails = () => {
     };
 
     return (
-        <Container className="mt-5">
-            <Button variant="link" onClick={() => navigate('/positions')} className="mb-3">
+        <Container className="mt-5" data-cy="position-details-page">
+            <Button variant="link" onClick={() => navigate('/positions')} className="mb-3" data-cy="back-to-positions-button">
                 Volver a Posiciones
             </Button>
-            <h2 className="text-center mb-4">{positionName}</h2>
+            <h2 className="text-center mb-4" data-cy="position-title">{positionName}</h2>
             <DragDropContext onDragEnd={onDragEnd}>
                 <Row>
                     {stages.map((stage, index) => (

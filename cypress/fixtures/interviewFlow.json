@@ -1,0 +1,14 @@
+{
+  "interviewFlow": {
+    "positionName": "Senior Backend Engineer",
+    "interviewFlow": {
+      "id": 1,
+      "description": "Flujo estándar de contratación",
+      "interviewSteps": [
+        { "id": 100, "interviewFlowId": 1, "interviewTypeId": 1, "name": "Screening", "orderIndex": 0 },
+        { "id": 200, "interviewFlowId": 1, "interviewTypeId": 2, "name": "Technical Interview", "orderIndex": 1 },
+        { "id": 300, "interviewFlowId": 1, "interviewTypeId": 3, "name": "Manager Interview", "orderIndex": 2 }
+      ]
+    }
+  }
+}

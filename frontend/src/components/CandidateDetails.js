@@ -69,7 +69,7 @@ const CandidateDetails = ({ candidate, onClose }) => {
     };
 
     return (
-        <Offcanvas show={!!candidate} onHide={onClose} placement="end">
+        <Offcanvas show={!!candidate} onHide={onClose} placement="end" data-cy="candidate-details-panel">
             <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Detalles del Candidato</Offcanvas.Title>
             </Offcanvas.Header>

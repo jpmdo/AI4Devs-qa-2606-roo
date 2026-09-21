@@ -1,0 +1,16 @@
+[
+  {
+    "fullName": "Ada Lovelace",
+    "currentInterviewStep": "Screening",
+    "candidateId": 5,
+    "applicationId": 55,
+    "averageScore": 4
+  },
+  {
+    "fullName": "Alan Turing",
+    "currentInterviewStep": "Technical Interview",
+    "candidateId": 6,
+    "applicationId": 66,
+    "averageScore": 5
+  }
+]
